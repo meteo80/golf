@@ -1,4 +1,4 @@
-const CACHE = 'golf-app-v4';
+const CACHE = 'golf-app-v5';
 const BASE = '/golf-app';
 const ASSETS = [BASE+'/', BASE+'/index.html', BASE+'/manifest.json'];
 
