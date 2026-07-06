@@ -2,15 +2,15 @@
   "name": "전국 골프장 찾기",
   "short_name": "골프장 찾기",
   "description": "AI가 추천하는 전국 골프장 검색 & 예약 정보",
-  "start_url": "/golf-app/index.html",
-  "scope": "/golf-app/",
+  "start_url": "/golf/index.html",
+  "scope": "/golf/",
   "display": "standalone",
   "background_color": "#F0FDF4",
   "theme_color": "#16A34A",
   "orientation": "portrait",
   "icons": [
-    { "src": "/golf-app/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "/golf-app/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    { "src": "/golf/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/golf/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "categories": ["sports", "lifestyle"],
   "lang": "ko"
