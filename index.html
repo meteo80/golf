@@ -6,7 +6,7 @@
 <title>전국 골프장 찾기</title>
 
 <!-- PWA -->
-<link rel="manifest" href="/golf/manifest.json">
+<link rel="manifest" href="/golf-app/manifest.json">
 <meta name="theme-color" content="#16A34A">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -1175,6 +1175,7 @@ const GOLF_DB = [
   {name:'골프존카운티 선운',addr:'전북'},
   {name:'골프존카운티 화랑',addr:'경북'},
   {name:'골프존카운티 송도',addr:'인천'},
+  {name:'대영힐스컨트리클럽',addr:'충북 충주시 대소원면 성종두담길 114'},
 ];
 
 // 한국 주요 도시 좌표 내장 (지오코딩 API 실패 대비 최종 폴백)
@@ -1289,7 +1290,7 @@ function resetApp(){
 // 서비스 워커 등록
 if('serviceWorker' in navigator){
   window.addEventListener('load', ()=>{
-    navigator.serviceWorker.register('/golf/sw.js', {scope: '/golf/'}).catch(()=>{});
+    navigator.serviceWorker.register('/golf-app/sw.js', {scope: '/golf-app/'}).catch(()=>{});
   });
 }
 
